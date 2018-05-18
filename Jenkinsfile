@@ -1,4 +1,4 @@
- node (){
+ node ('slave1'){
   stage 'Build and Test'
   env.PATH = "${tool 'mvn3'}/bin:${env.PATH}"
   //checkout scm
